@@ -1,0 +1,6 @@
+for even a small change or event in the website, the whole reloads or re-renders in a realDom
+but this doesnt happen in the case of VirtualDom as it always creates a copy of the realDom and reload only that part 
+
+jsx- JAVASCRIPT XML
+javascript ke andar html likh skte 
+HTML + JAVASCRIPT

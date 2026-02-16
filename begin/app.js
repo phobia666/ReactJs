@@ -1,1 +1,0 @@
-var a = 5 //have to export to script.js here for merging the two files
