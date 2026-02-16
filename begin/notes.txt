@@ -1,0 +1,7 @@
+ library are used to implement a particular feature in the website
+ like
+- GSAP moving animation
+-Lenis smooth scrolling
+- React JS for making the UI
+
+but frameworks are pre-built structure that provides the foundation
