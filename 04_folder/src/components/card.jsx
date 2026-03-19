@@ -9,7 +9,7 @@ function card(props){
         </div>
         <div className="centre">
             <h2>{props.name}</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, libero.</p>
+            <p>{props.bio}</p>
         </div>
         <div className="bottom">
             <div id="reach" className="likes">

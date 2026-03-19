@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Card from "./components/card"
 import Navbar from "./components/navbar"
 import Personalities from './components/personalities'
@@ -27,9 +27,8 @@ const App = () => {
       likes = {person.likes}
       posts = {person.posts}
       views = {person.views}
+      bio = {person.bio}
       />
-
-      
     ))}
   </div>
   
