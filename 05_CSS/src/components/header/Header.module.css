@@ -1,0 +1,13 @@
+.header{
+    background-color: blueviolet;
+    /* margin: 10px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.header button{
+    background-color: green;
+}

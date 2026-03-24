@@ -12,7 +12,7 @@ body{
 }
 
 body{
-    background-color: #000000;
+    background-color: #e3e3e3;
 }
 
 /* #parent2{
@@ -70,7 +70,21 @@ body{
     height: 100px;
     border-radius: 50%;
 }
-
+.likes{
+    width: 80px;
+    /* background-color: yellow; */
+    border-right: 1px solid #898989;
+}
+.posts{
+    width: 80px;
+    /* background-color: violet; */
+    border-right: 1px solid #898989;
+}
+.views{
+    /* background-color: blue; */
+    width: 80px;
+    
+}
 .centre{
     margin: 0px 0px 10px 10px;
     padding-top: 50px;
