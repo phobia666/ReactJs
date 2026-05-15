@@ -1,9 +1,14 @@
 import React from 'react'
-import ImageContainer from './RightCard'
-const RightContent = () => {
+import RightCard from './RightCard'
+const RightContent = (props) => {
   return (
-    <div className='w-2/3 flex  py-8'>
-      <ImageContainer />
+    <div id='right' className='w-2/3 flex flex-nowrap overflow-x-auto  gap-10 py-8'>
+      {props.users.map(function(user){
+        return <RightCard
+        image={user.image}
+        id={user.id}
+        bottom={user.bottom}/>
+      })}
     </div>
   )
 }

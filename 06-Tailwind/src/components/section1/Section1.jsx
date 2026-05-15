@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Centre from './Centre'
-const Section1 = () => {
+const Section1 = (props) => {
+  // console.log(props)
   return (
     <div className='h-screen w-full'>
         <Navbar/>
-        <Centre/>
+        <Centre users={props.users}/>
     </div>
   )
 }

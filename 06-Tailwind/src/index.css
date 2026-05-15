@@ -5,3 +5,7 @@
 *{
     font-family: 'fira code';
 }
+
+#right::-webkit-scrollbar{
+    display: none;
+}
