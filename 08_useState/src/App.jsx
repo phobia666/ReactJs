@@ -1,34 +1,31 @@
 import React, { useState } from 'react'
-
+import Basic from './components/basic';
+import Advance from './components/Advance';
 const App = () => {
 
-  // const [num, setnum] = useState(10)
-  // const [name, setname] = useState('Ace')
-  // function changeNum(){
-  //   setnum(50)
-  //   setname('Abhya')
-  // }
+  //num is the read only value and 
+  // setnum is the write only value
+  // you cannot use num in the write only value setnum(num) X
 
-  const [counter, setcounter] = useState(0)
-
-  function increaseNum(){
-    console.log("hello");
-    setcounter(counter+1)
+  const [num, setnum] = useState(10)
+  const [name, setname] = useState('Ace')
+  function changeNum(){
+    console.log(num)
+    setnum(50) // this runs asynchronously
+    console.log(num);
+    //console me thoda piche chalta hai lekin UI me turant update aata hai
+    setname('Abhya')
   }
 
-  function decreaseNum(){
-    setcounter(counter-1)
-  }
+  
 
 
   return (
     <div>
       {/* <h1>The value of a = {num} <br /> My name is {name}</h1>
       <button onClick={changeNum}>click here</button> */}
-
-      <h1>{counter}</h1>
-      <button onClick={increaseNum}>increase</button>
-      <button onClick={decreaseNum}>decrease</button>
+      {/* <Basic/> */}
+      <Advance />
     </div>
   )
 }

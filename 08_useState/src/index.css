@@ -24,8 +24,9 @@ a:hover {
 
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -33,20 +34,21 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  width: 200px;
-  height: 100px;
-  /* margin: 30px; */
+  /* width: 220px;
+  height: 100px; */
+  margin: 10px;
   display: flex;
   align-items: center ;
   justify-content: center ;
   border-radius: 10px;
-  background-color: rgb(170, 170, 170);
+  /* background-color: rgb(160, 160, 162); */
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
+  margin: 10px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
