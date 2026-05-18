@@ -52,17 +52,14 @@ const App = () => {
           Add Note
           </button>
       </form>
-      <div className='lg:w-1/2 h-full flex flex-col lg:border-l-3 p-10 bg-gray-900'>
+      <div className='lg:w-1/2 h-full flex flex-col lg:border-l-3 p-10 '>
         <h1 className='text-3xl font-bold'>Recent Notes</h1>
         <div className='flex gap-5 flex-wrap py-5 h-full overflow-auto text-black'>
           {data.map((elem)=>{
             return(
-              <div className='h-52 w-42 bg-white rounded-2xl px-5 py-2 flex flex-col items-center '>
-                <h1 className='text-xl' >{elem.title}</h1>
-                <div>
-                  <p>{elem.details}</p>
-                </div>
-                
+              <div className='h-62 w-52 items-start justify-start rounded-2xl p-8 flex flex-col bg-cover bg-[url("https://static.vecteezy.com/system/resources/thumbnails/010/793/873/small/a-lined-note-paper-covered-with-transparent-tape-on-a-yellow-background-with-a-white-checkered-pattern-free-png.png")]'>
+                <h1 className=' leading-relaxed text-xl font-bold' >{elem.title}</h1>              
+                <p className=' mt-4 leading-tight font-medium text-gray-600'>{elem.details}</p>
             </div>
             )
           })}
